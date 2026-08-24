@@ -229,6 +229,10 @@ tr:last-child td { border-bottom: none; }
           <option value="Christian Saggia">Christian Saggia</option>
           <option value="Adrian Fleitas">Adrian Fleitas</option>
           <option value="Marcos Ugarte">Marcos Ugarte</option>
+          <option value="Banca Privada">Banca Privada</option>
+          <option value="AFD">AFD</option>
+          <option value="Viviendas">Viviendas</option>
+          <option value="Otro">Otro</option>
         </select>
       </div>
       <div class="form-field"><label>Franja horaria</label>
@@ -249,39 +253,6 @@ tr:last-child td { border-bottom: none; }
       </div>
     </div>
  </div> 
-
-  <p class="section-title">Agregar sobre para sucursal</p>
-  <div class="add-form">
-    <div class="form-row">
-      <div class="form-field"><label>Nombre cliente</label><input type="text" id="suc-name" placeholder="Ej: Empresa SA"></div>
-      <div class="form-field"><label>CI / RUC</label><input type="text" id="suc-ci" placeholder="80000000-0"></div>
-      <div class="form-field"><label>Tipo de documento</label><input type="text" id="suc-tipodoc" value="Legajos de TC"></div>
-      <div class="form-field"><label>Oficial</label>
-        <select id="suc-oficial">
-          <option value="Ana Paula Appleyard">Ana Paula Appleyard</option>
-          <option value="Christian Saggia">Christian Saggia</option>
-          <option value="Katya Cuenca">Katya Cuenca</option>
-          <option value="Marcos Ugarte">Marcos Ugarte</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="form-field"><label>Sucursal destino</label>
-        <select id="suc-sucursal">
-          <option value="Casa Central">Casa Central</option>
-          <option value="Sucursal Norte">Sucursal Norte</option>
-          <option value="Sucursal Sur">Sucursal Sur</option>
-          <option value="Sucursal Este">Sucursal Este</option>
-        </select>
-      </div>
-      <div class="form-field" style="grid-column:2/-1"><label>Notas operativas</label><input type="text" id="suc-notasop" placeholder="Instrucciones o referencias..."></div>
-    </div>
-    <div class="form-row" style="margin-top:4px">
-      <div class="form-field" style="display:flex;align-items:flex-end;justify-content:flex-end;grid-column:1/-1">
-        <button class="btn-add" id="btn-add-suc" onclick="addSucursalEnvelope()">+ Agregar a sucursal</button>
-      </div>
-    </div>
-  </div>
 
   <p class="section-title">Couriers activos</p>
   <div class="courier-mgmt">
